@@ -10,6 +10,7 @@ We aim to compare both methods in terms of implementation and output while proce
 
 ## 📂 Files in this Repo
 
+- data preprocessing.py : Data preprocessing script
 - mapper.py : Python mapper script  
 - reducer.py : Python reducer script  
 - spark.py : Spark-based analysis script  
