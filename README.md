@@ -12,7 +12,7 @@ We aim to compare both methods in terms of implementation and output while proce
 
 - mapper.py : Python mapper script  
 - reducer.py : Python reducer script  
-- sensor_avg_spark.py : Spark-based analysis script  
+- spark.py : Spark-based analysis script  
 - README.md : Project overview and full execution instructions
 
 ---
