@@ -165,7 +165,7 @@ spark.stop()
 ### ▶️ Run the Spark Script
 
 ```bash
-spark-submit sensor_avg_spark.py
+spark-submit spark.py
 ```
 
 ---
