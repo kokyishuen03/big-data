@@ -205,5 +205,5 @@ Spark:
 |------------------------------------|------------|
 | Kok Yi Shuen                       | 22027288   |
 | Ee Xie Wen                         | 21032362   |
-| Siobhan Goh Shze Mun Su            | 22002570   |
+| Siobhan Goh Shze Mun               | 22002570   |
 
