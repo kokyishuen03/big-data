@@ -20,19 +20,22 @@ We aim to compare both methods in terms of implementation and output while proce
 
 ## 📁 Dataset
 
-Due to GitHub’s 25MB file limit, the cleaned dataset is hosted on Dropbox:
+This project uses smart home sensor log data sourced from the UCI Machine Learning Repository:  
 
-📎 [Download sensor_duration_cleaned.csv (Dropbox)](https://www.dropbox.com/scl/fi/8m8pbrw0nmylh10n7efqt/sensor_duration_cleaned.csv?rlkey=ryxu0ia6we8imo97dycq5304i&st=54t4tyaj&dl=1)
+🔗 [Human Activity Recognition from Continuous Ambient Sensor Data (UCI)](https://archive.ics.uci.edu/dataset/506/human+activity+recognition+from+continuous+ambient+sensor+data)  
 
-Each record contains:
+- **Original File Name:** `csh102.rawdata.features`  
+- **File Size:** ~1.6 GB  
+- **Total Records:** 6,472,309 rows  
 
-| lastSensorLocation | windowDuration |
-|--------------------|----------------|
-| 0                  | 12725          |
-| 1                  | 12728          |
-| ...                | ...            |
+Due to GitHub’s 25MB file size limit, the cleaned dataset used in this project has been hosted externally:  
 
----
+🔗 [Download `sensor_duration_cleaned.csv` (Dropbox)](https://www.dropbox.com/scl/fi/8m8pbrw0nmylh10n7efqt/sensor_duration_cleaned.csv?rlkey=ryxu0ia6we8imo97dycq5304i&st=ta0tygsd&dl=1)  
+
+The cleaned version contains only the relevant columns used for analysis:  
+
+- `lastSensorLocation` → Encoded identifier for the last activated sensor location in the home  
+- `windowDuration` → Duration (in seconds) the sensor remained active during the time window  
 
 ## 📘 Full Execution Guide (Hadoop MapReduce Approach)
 
