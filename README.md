@@ -37,6 +37,7 @@ The cleaned version contains only the relevant columns used for analysis:
 - `lastSensorLocation` → Encoded identifier for the last activated sensor location in the home  
 - `windowDuration` → Duration (in seconds) the sensor remained active during the time window  
 
+
 ## 📘 Full Execution Guide (Hadoop MapReduce Approach)
 
 ### 📥 Download the dataset on EC2
